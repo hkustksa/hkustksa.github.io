@@ -1,0 +1,61 @@
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+@font-face {
+  font-family: Roboto; src:url('https://fonts.googleapis.com/css?family=Roboto');
+}
+
+.title {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 90px;
+  margin-top: 10%;
+  margin-left: 25%;
+  border-right: 5px solid white;
+  width: 16.5em;
+  width: 665px;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-animation: typing 2s steps(21, end),
+  blink-caret .5s step-end infinite alternate;
+
+}
+
+
+.Subtext {
+  width: 665px;
+  height: 16px;
+  /* border-color: white;
+  border-style: solid; */
+  margin-left: 25.2%;
+  margin-top: 0%;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.Subtext:after{
+  content: '';
+  width: 100%;
+  display: inline-block;
+}
+
+.logos {
+  margin-left: 25%;
+  margin-top: 15%;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+
+
+body {
+  background-image: url("Background.jpg");
+}
