@@ -48,7 +48,7 @@ body {
 }
 
 .background {
-  background-image: url("About Us_Banner.jpg");
+  background-image: url("AboutUs_Banner.jpg");
   background-position:0% -100%;
   /* 0, -100 */
   background-size: 100%;
