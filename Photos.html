@@ -4,6 +4,7 @@
     <title>
       HKUSTKSA - Photos
     </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <link type = "text/css" rel = "stylesheet" href = "Photos.css"/>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400">
@@ -11,6 +12,10 @@
          body {
            font-family: 'Roboto', serif;
            font-size: 48px;
+         }
+         .galleria{ max-width: 1200px;
+           height: 600px;
+           background: #000
          }
        </style>
   </head>
@@ -52,22 +57,57 @@
     <h1 class = "title">
        - Photos -
     </h1>
-    <div class="gallery">
-      <div>
-        <img src="Exco.jpg" />
-      </div>
-      <div>
-        <img src="Exco.jpg" />
-      </div>
-      <div>
-        <img src="Exco.jpg" />
-      </div>
-      <div>
-        <img src="Exco.jpg" />
-      </div>
-      <div>
-        <img src="Exco.jpg" />
-      </div>
+
+    <script src="galleria/galleria-1.5.7.min.js"></script>
+    <div class="galleria">
+    <img src="photo1.jpg">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+    <img src="photo4.jpg">
+    <img src="photo5.jpg">
+    <img src="photo6.jpg">
+    <img src="photo7.jpg">
+    <img src="photo8.jpg">
+    <img src="photo9.jpg">
+    <img src="photo10.jpg">
+    <img src="photo11.jpg">
+    <img src="photo12.jpg">
+    <img src="photo13.jpg">
+    <img src="photo14.jpg">
+    <img src="photo15.jpg">
+    <img src="photo16.jpg">
+    <img src="photo17.jpg">
+    <img src="photo18.jpg">
+    <img src="photo19.jpg">
+    <img src="photo20.jpg">
+    <img src="photo21.jpg">
+    <img src="photo22.jpg">
+    <img src="photo23.jpg">
+    <img src="photo24.jpg">
+    <img src="photo25.jpg">
+    <img src="photo26.jpg">
+    <img src="photo27.jpg">
+    <img src="photo28.jpg">
+    <img src="photo29.jpg">
+    <img src="photo30.jpg">
+    <img src="photo31.jpg">
+    <img src="photo32.jpg">
+    <img src="photo33.jpg">
+    <img src="photo34.jpg">
+    <img src="photo35.jpg">
+    <img src="photo36.jpg">
+    <img src="photo37.jpg">
+    <img src="photo38.jpg">
+    <img src="photo39.jpg">
+
+
+    </div>
+    <script>
+(function() {
+    Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('.galleria');
+}());
+    </script>
 
     </div>
     <div class = "footer">

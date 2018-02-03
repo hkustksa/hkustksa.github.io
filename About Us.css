@@ -48,8 +48,8 @@ body {
 }
 
 .background {
-  background-image: url("About Us_Banner.jpg");
-  background-position:0% -100%;
+  background-image: url("AboutUs_Banner.jpg");
+  background-position:0% 250%;
   /* 0, -100 */
   background-size: 100%;
   background-attachment: fixed;

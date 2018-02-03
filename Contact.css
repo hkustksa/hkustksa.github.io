@@ -82,9 +82,9 @@ td {
 }
 
 .background {
-  background-image: url("Contact_Banner2.jpg");
-  background-position:60% 91%;
-  background-size: 115%;
+  background-image: url("Contact_Banner.jpg");
+  background-position:60% 80%;
+  background-size: 100%;
   background-attachment: fixed;
 }
 
